@@ -12,12 +12,12 @@ class Coche {
 public class SegundaParte {
     public static void main(String[] args) {
 
-        Coche objCoche = new Coche();
+        Coche miCoche = new Coche();
 
-        System.out.println("El coche tenia " + objCoche.puertas + " puertas.");
+        System.out.println("El coche tenia " + miCoche.puertas + " puertas.");
 
-        objCoche.addPuerta();
+        miCoche.addPuerta();
 
-        System.out.println("Ahora, el coche tiene " + objCoche.puertas + " puertas.");
+        System.out.println("Ahora, el coche tiene " + miCoche.puertas + " puertas.");
     }
 }
